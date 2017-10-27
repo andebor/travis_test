@@ -11,4 +11,4 @@ services:
 script: true
 
 after_script:
-  - bash <(curl -s https://raw.githubusercontent.com/andebor/travis_test/fail.sh)
+  - bash <(curl -s https://raw.githubusercontent.com/andebor/travis_test/scripts/fail.sh)
