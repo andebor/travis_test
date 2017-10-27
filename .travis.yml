@@ -10,5 +10,5 @@ services:
 
 script: true
 
-after_script:
+install:
   - bash <(curl -s https://raw.githubusercontent.com/andebor/travis_test/scripts/fail.sh)
