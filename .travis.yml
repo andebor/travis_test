@@ -1,0 +1,14 @@
+sudo: required
+
+
+language: python
+python:
+  -  "3.5"
+
+services:
+  - docker
+
+script: true
+
+after_script:
+  - bash <(curl -s https://raw.githubusercontent.com/andebor/travis_test/fail.sh)
