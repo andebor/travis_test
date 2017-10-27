@@ -8,6 +8,10 @@ python:
 services:
   - docker
 
+branches:
+  only:
+    - master
+
 script: true
 
 install:
